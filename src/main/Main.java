@@ -1,20 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package dolgozat;
+//feladat
+//egy ember tudjon bemutatkozin, ebben megmondja a nevét és a korát. születésnapjánál öregszik egy évet,
+//megtanulhat nyelveket, ha ismer nyelveket, akkor bemutatkozásnál elmondja, hogy milyen nyelven, nyelveken beszél
+//konzolos nézet
 
-/**
- *
- * @author erdos.viktoria
- */
-public class Dolgozat {
+package main;
 
-    /**
-     * @param args the command line arguments
-     */
+import controller.Controller;
+
+public class Main {
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        new Controller();
     }
     
 }
